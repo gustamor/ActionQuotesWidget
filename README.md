@@ -20,3 +20,4 @@ An Android widget for desktop with quotes about call to action
 <a href="https://ibb.co/BzFwgmf"><img src="https://i.ibb.co/TvdrHZw/screen1.jpg"  width="300" height="600" alt="screen1" border="0"></a>
 <a href='https://postimg.cc/CBc882ZP' target='_blank'><img src='https://i.postimg.cc/QC3J2Gj3/screen4.png' width="400" height="600"  border='0' alt='screen4'/></a>
 <a href='https://postimg.cc/30JbYzp3' target='_blank'><img src='https://i.postimg.cc/4yzCbgxH/screen5.png' width="300" height="600" border='0' alt='screen5'/></a>
+<a href='https://postimg.cc/zybDqcSw' target='_blank'><img src='https://i.postimg.cc/P5KCQGC7/screen6.png'  width="400" height="600"  border='0' alt='screen6'/></a><br />
