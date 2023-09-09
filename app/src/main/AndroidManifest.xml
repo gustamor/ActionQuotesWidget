@@ -16,11 +16,17 @@
         android:theme="@style/Theme.ActionQuotesWidget"
         tools:targetApi="34">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-
+            android:name="es.gustavomoreno.android.gp.widget.actionquotes.MainActivity"
+            android:exported="true"
+            android:label="Action Quotes Widget"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <receiver
-            android:name=".QuotesWidgetReceiver"
+            android:name="es.gustavomoreno.android.gp.widget.actionquotes.QuotesWidgetReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

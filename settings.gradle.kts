@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ActionQuotesWidget"
+rootProject.name = "ActionQuotes"
 include(":app")
  
