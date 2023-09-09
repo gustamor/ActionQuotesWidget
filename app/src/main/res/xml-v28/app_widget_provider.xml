@@ -5,6 +5,6 @@
     android:targetCellWidth="1"
     android:targetCellHeight="1"
     android:resizeMode="horizontal|vertical"
-    android:previewImage="@string/app_name"
-    android:configure="es.gustavomoreno.android.gp.widget.actionquotes.MainActivity"
-    android:widgetFeatures="reconfigurable|configuration_optional"    />
+
+    android:widgetFeatures="reconfigurable|configuration_optional"
+    />

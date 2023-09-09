@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ActionQuotesWidget</string>
+    <string name="app_name">Action Quote sWidget</string>
+    <string name="gp_link">https://play.google.com/store/apps/details?id=es.gustavomoreno.android.gp.widget.actionquotes</string>
 </resources>

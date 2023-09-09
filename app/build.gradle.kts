@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.actionquoteswidget"
+    namespace = "es.gustavomoreno.android.gp.widget.actionquotes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.actionquoteswidget"
+        applicationId = "es.gustavomoreno.android.gp.widget.actionquotes"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -54,6 +54,7 @@ android {
 
 dependencies {
 
+    implementation("androidx.compose.ui:ui-android:1.5.1")
     val retrofitVersion = "2.9.0"
     val glanceVersion= "1.0.0-rc01"
 
@@ -81,6 +82,10 @@ dependencies {
     //OkHTTP
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
+
+    // Material 3
+    implementation("androidx.compose.material3:material3:1.0.1")
+    implementation("androidx.compose.material3:material3-window-size-class:1.0.1")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
