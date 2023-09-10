@@ -42,7 +42,6 @@ import es.gustavomoreno.android.gp.widget.actionquotes.domain.GetQuotesUseCase
 
 private val currentQuoteKey = stringPreferencesKey("currentQuote")
 private val currentTextSizeKey = intPreferencesKey("currentTextSize")
-
 private var quotes: List<QuoteResponse>? = mutableListOf(QuoteResponse("Ernest Hemingway ","Never confuse movement with action"))
 private val getQuotesUseCase = GetQuotesUseCase()
 
@@ -52,7 +51,7 @@ class QuotesWidget : GlanceAppWidget() {
         quotes = getQuotesUseCase()
         provideContent {
             val preferences = currentState<Preferences>()
-            val textSize = preferences[currentTextSizeKey] ?: 17
+            val textSize = preferences[currentTextSizeKey] ?: 19
             val currentQuote = quotes?.random()
 
             MaterialTheme {
@@ -75,8 +74,8 @@ class QuotesWidget : GlanceAppWidget() {
                                     color = Color(0xFFE7E7E7))
                                 )
                             )
-
                         Spacer(modifier = GlanceModifier.height(16.dp))
+
                         Text(
                             text = "${currentQuote?.author}",
                             style = TextStyle(

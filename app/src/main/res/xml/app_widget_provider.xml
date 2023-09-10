@@ -2,7 +2,7 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:minWidth="300dp"
     android:minHeight="150dp"
-    android:targetCellWidth="1"
+    android:targetCellWidth="2"
     android:targetCellHeight="1"
     android:resizeMode="horizontal|vertical"
     android:previewImage="@string/app_name"
