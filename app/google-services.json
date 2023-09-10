@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994125944571",
+    "project_id": "action-quotes-widget",
+    "storage_bucket": "action-quotes-widget.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994125944571:android:a251b14ec181e08879825e",
+        "android_client_info": {
+          "package_name": "es.gustavomoreno.android.gp.widget.actionquotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR2xfDLRCanjPWE9L2LXg0grT0oLcu0sE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

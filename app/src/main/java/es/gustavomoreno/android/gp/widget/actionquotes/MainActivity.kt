@@ -42,7 +42,6 @@ import es.gustavomoreno.android.gp.widget.actionquotes.ui.theme.ActionQuotesWidg
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
             ActionQuotesWidgetTheme {
                 Surface(
