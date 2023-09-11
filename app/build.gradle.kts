@@ -14,8 +14,8 @@ android {
         applicationId = "es.gustavomoreno.android.gp.widget.actionquotes"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 110
+        versionName = "1.1"
         multiDexEnabled = true
 
 
