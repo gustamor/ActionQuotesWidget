@@ -57,8 +57,7 @@ class QuotesWidget : GlanceAppWidget() {
             MaterialTheme {
                 Box(
                     modifier = GlanceModifier
-                        .background(imageProvider = ImageProvider(R.drawable.card_shapes)
-                        )
+                        .background(imageProvider = ImageProvider(R.drawable.card_shapes))
                         .padding(16.dp)
                         .clickable(actionRunCallback<RefreshQuoteAction>())
                 ) {

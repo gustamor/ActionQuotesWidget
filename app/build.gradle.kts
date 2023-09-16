@@ -14,11 +14,9 @@ android {
         applicationId = "es.gustavomoreno.android.gp.widget.actionquotes"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 112
+        versionName = "1.2"
         multiDexEnabled = true
-
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
@@ -73,7 +71,6 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-crashlytics-ktx")
-
 
     //Glance
     implementation("androidx.glance:glance:${glanceVersion}")
