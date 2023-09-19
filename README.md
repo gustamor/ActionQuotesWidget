@@ -1,7 +1,16 @@
-# Action Quotes Widget
-An Android widget for home screen with quotes about call to action
+# <img height="100" src="https://play-lh.googleusercontent.com/JJ-Al1PNDNgsS9Lkx6pEUt5ZQXWRXDd-7aJM8PsT0zaINrzdF9NHpNWBtA3orqRZjEM=w240-h480-rw" /> Action Quotes Widget 
+An Android widget for home screen with quotes about call to action 
 
 <a href="https://kotlinlang.org"><img alt="Static Badge" src="https://img.shields.io/badge/language-kotlin-blue"> </a>
+
+
+You can download it at <a href="https://play.google.com/store/apps/details?id=es.gustavomoreno.android.gp.widget.actionquotes"> Google Play </a> 
+<br/>
+
+
+<img height="250" src="https://play-lh.googleusercontent.com/INQSYib6Ve3KNdjh3Bxaky1nYA668LaUVMfvXUy5SvWmH0fBKqwOAWUWwXQoGjZOTA=w416-h235-rw" />
+
+
  
 <br />                         
 
@@ -12,6 +21,7 @@ An Android widget for home screen with quotes about call to action
 | 🌐 Networking        | [Retrofit](https://github.com/square/retrofit)                |
 | 🌥️  Widget       |  [Glance](https://developer.android.google.cn/jetpack/compose/glance) |
 | :compass: Navigation       |  [Compose Destinations Navigation](https://developer.android.com/jetpack/compose/navigation) |
+| <img height="20" src="https://2.bp.blogspot.com/-bD9iB6eEFNc/WXdfMahDf-I/AAAAAAAAEX0/Jr2V9cPvrJITSZkTmwt2k1PBZ_m830A5wCLcBGAs/s1600/image1.png">    Testing       |  [Junit 4](https://developer.android.google.cn/jetpack/compose/testing) |
 | <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Material_Design_Logo.svg/1024px-Google_Material_Design_Logo.svg.png">    Design  | [Material Design 3](https://m3.material.io//)         |                        |
 
 
